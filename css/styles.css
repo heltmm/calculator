@@ -1,24 +1,7 @@
-body {
-  display: block;
+body{
   text-align: center;
-
-}
-.grey {
-  background-color: grey;
-}
-.lightgrey {
-  background-color: lightgrey;
 }
 
-.row {
-  float: center-div;
-}
-
-.center-div {
-  margin: 0 auto;
-  width: 500px;
-}
-.col-md-3 {
-  width: 120px;
-  margin: 5px;
+#results{
+  display: none;
 }
