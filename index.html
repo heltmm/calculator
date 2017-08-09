@@ -10,25 +10,64 @@
   </head>
   <body>
     <h1>Calculator</h1>
+    <h2>Add:</h2>
+    <!--Form for addition -->
     <form id="add">
-
       <div class="form-group">
           <label for="add1">1st number:</label>
           <input id="add1" class="form-control" type="text">
       </div>
-
       <div class="form-group">
           <label for="add2">2nd number:</label>
           <input id="add2" class="form-control" type="text">
       </div>
-
       <button type="submit" class="btn">Add</button>
-      
+    </form>
 
+    <h2>Subtract</h2>
+    <!--Form for subtraction -->
+    <form id="sub">
+      <div class="form-group">
+          <label for="sub1">1st number:</label>
+          <input id="sub1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+          <label for="sub2">2nd number:</label>
+          <input id="sub2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Sub</button>
+    </form>
+
+    <h2>Multiply</h2>
+    <!-- Form for Multiplication -->
+    <form id="mult">
+      <div class="form-group">
+          <label for="mult1">1st number:</label>
+          <input id="mult1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+          <label for="mult2">2nd number:</label>
+          <input id="mult2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Multipy</button>
+    </form>
+
+    <h2>Divide</h2>
+    <!--Form for Division-->
+    <form id="div">
+      <div class="form-group">
+          <label for="div1">1st number:</label>
+          <input id="div1" class="form-control" type="text">
+      </div>
+      <div class="form-group">
+          <label for="div2">2nd number:</label>
+          <input id="div2" class="form-control" type="text">
+      </div>
+      <button type="submit" class="btn">Divide</button>
     </form>
 
     <div id="results">
-      <p>you answer is <span class="hiddenAnswer"></span></p>
+      <p>Your answer is:<br><span class="hiddenAnswer"></span></p>
     </div>
   </body>
 </html>
