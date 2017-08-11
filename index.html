@@ -10,60 +10,43 @@
   </head>
   <body>
     <h1>Calculator</h1>
-    <h2>Add:</h2>
-    <!--Form for addition -->
-    <form id="add">
-      <div class="form-group">
-          <label for="add1">1st number:</label>
-          <input id="add1" class="form-control" type="text">
-      </div>
-      <div class="form-group">
-          <label for="add2">2nd number:</label>
-          <input id="add2" class="form-control" type="text">
-      </div>
-      <button type="submit" class="btn">Add</button>
-    </form>
 
-    <h2>Subtract</h2>
-    <!--Form for subtraction -->
-    <form id="sub">
+    <!--Calc Form: input and buttons-->
+    <form id="calc"
       <div class="form-group">
-          <label for="sub1">1st number:</label>
-          <input id="sub1" class="form-control" type="text">
+        <label for="input1">1st number:</label>
+        <input id="input1" class="form-control" type="text">
       </div>
       <div class="form-group">
-          <label for="sub2">2nd number:</label>
-          <input id="sub2" class="form-control" type="text">
+        <label for="input2">2nd number:</label>
+        <input id="input2" class="form-control" type="text">
       </div>
-      <button type="submit" class="btn">Sub</button>
-    </form>
 
-    <h2>Multiply</h2>
-    <!-- Form for Multiplication -->
-    <form id="mult">
-      <div class="form-group">
-          <label for="mult1">1st number:</label>
-          <input id="mult1" class="form-control" type="text">
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="add">Add
+        </label>
       </div>
-      <div class="form-group">
-          <label for="mult2">2nd number:</label>
-          <input id="mult2" class="form-control" type="text">
-      </div>
-      <button type="submit" class="btn">Multipy</button>
-    </form>
 
-    <h2>Divide</h2>
-    <!--Form for Division-->
-    <form id="div">
-      <div class="form-group">
-          <label for="div1">1st number:</label>
-          <input id="div1" class="form-control" type="text">
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="subtract">Subtract
+        </label>
       </div>
-      <div class="form-group">
-          <label for="div2">2nd number:</label>
-          <input id="div2" class="form-control" type="text">
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="multiply">Multiply
+        </label>
       </div>
-      <button type="submit" class="btn">Divide</button>
+
+      <div class="radio">
+        <label>
+          <input type="radio" name="operator" value="divide">Divide
+        </label>
+      </div>
+
+      <button type="submit" class="btn">Submit</button>
     </form>
 
     <div id="results">
